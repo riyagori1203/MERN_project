@@ -11,7 +11,7 @@ app.use('/api/v1',router)
 app.get('/',(req,res)=>{
     res.json({
         success:true,
-        message:"welcome to the rest API for hackathon project"
+        
     })
 })
 const PORT = process.env.port || 4000 
